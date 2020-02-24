@@ -19,3 +19,32 @@
 [20-Feb-2020 22:47:35 UTC] PHP   3. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-blog-header.php:19
 [20-Feb-2020 22:47:35 UTC] PHP   4. include() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:98
 [20-Feb-2020 23:59:23 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-content/themes/fictional-univerity-theme/functions.php on line 5
+[24-Feb-2020 20:58:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'univeristy_features' not found or invalid function name in /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 288
+[24-Feb-2020 20:58:12 UTC] PHP Stack trace:
+[24-Feb-2020 20:58:12 UTC] PHP   1. {main}() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[24-Feb-2020 20:58:12 UTC] PHP   2. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[24-Feb-2020 20:58:12 UTC] PHP   3. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-load.php:37
+[24-Feb-2020 20:58:12 UTC] PHP   4. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-config.php:77
+[24-Feb-2020 20:58:12 UTC] PHP   5. do_action() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-settings.php:507
+[24-Feb-2020 20:58:12 UTC] PHP   6. WP_Hook->do_action() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[24-Feb-2020 20:58:12 UTC] PHP   7. WP_Hook->apply_filters() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:312
+[24-Feb-2020 20:58:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'univeristy_features' not found or invalid function name in /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 288
+[24-Feb-2020 20:58:52 UTC] PHP Stack trace:
+[24-Feb-2020 20:58:52 UTC] PHP   1. {main}() /Users/jacobthomas/Local Sites/fictional-university/app/public/index.php:0
+[24-Feb-2020 20:58:52 UTC] PHP   2. require() /Users/jacobthomas/Local Sites/fictional-university/app/public/index.php:17
+[24-Feb-2020 20:58:52 UTC] PHP   3. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[24-Feb-2020 20:58:52 UTC] PHP   4. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-load.php:37
+[24-Feb-2020 20:58:52 UTC] PHP   5. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-config.php:77
+[24-Feb-2020 20:58:52 UTC] PHP   6. do_action() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-settings.php:507
+[24-Feb-2020 20:58:52 UTC] PHP   7. WP_Hook->do_action() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[24-Feb-2020 20:58:52 UTC] PHP   8. WP_Hook->apply_filters() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:312
+[24-Feb-2020 21:00:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'univeristy_features' not found or invalid function name in /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 288
+[24-Feb-2020 21:00:13 UTC] PHP Stack trace:
+[24-Feb-2020 21:00:13 UTC] PHP   1. {main}() /Users/jacobthomas/Local Sites/fictional-university/app/public/index.php:0
+[24-Feb-2020 21:00:13 UTC] PHP   2. require() /Users/jacobthomas/Local Sites/fictional-university/app/public/index.php:17
+[24-Feb-2020 21:00:13 UTC] PHP   3. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[24-Feb-2020 21:00:13 UTC] PHP   4. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-load.php:37
+[24-Feb-2020 21:00:13 UTC] PHP   5. require_once() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-config.php:77
+[24-Feb-2020 21:00:13 UTC] PHP   6. do_action() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-settings.php:507
+[24-Feb-2020 21:00:13 UTC] PHP   7. WP_Hook->do_action() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[24-Feb-2020 21:00:13 UTC] PHP   8. WP_Hook->apply_filters() /Users/jacobthomas/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:312
